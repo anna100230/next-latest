@@ -1,0 +1,6 @@
+# Ensure text files use LF in the repository, regardless of OS.
+* text=auto
+
+# Handle specific files with CRLF if needed (Windows batch files, for instance).
+*.cmd eol=crlf
+*.yml text eol=lf
